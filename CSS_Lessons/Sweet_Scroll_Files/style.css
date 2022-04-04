@@ -26,7 +26,7 @@ h3 {
   letter-spacing: 5px;
   text-transform: uppercase;
   font: 20px "Lato", sans-serif;
-  color: white;
+  color: #ffebf6;
   text-align:center
 }
 
@@ -36,15 +36,15 @@ h3 {
 }
 
 .kitchen-equipment{
-  background-image: url('ccutensils.JPG');
+  background-image: url("ccutensils.jpg");
 }
 .cake-ingredients{
   background-image: url("ccingredients.jpg");
 }
-.ingredients{
+.steps{
   background-image: url("strawberrycc.jpg");
   }
-}
+  
 
 .caption{
   position: absolute;
