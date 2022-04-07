@@ -16,7 +16,7 @@
 /* Table Styles */
 table.schedule{
    background: White;
-   border: 10px outset rgb(153, 0, 153);
+   border: 10px outset rgb(153,0,153);
    border-collapse: collapse;
    font-size: 0.75em;
    width: 100%;
@@ -32,7 +32,10 @@ table.schedule th, table.schedule td{
 
 
 /* Table Caption Styles */
-
+table.schedule caption {
+   caption-side: bottom;
+   text-align: right;
+}
 
 
 /* Row Group Styles */
