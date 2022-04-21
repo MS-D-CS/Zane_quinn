@@ -3,23 +3,23 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    color: #3f8a47;
+    color: #A496CF;
 }
 
 body{
     max-width: 960px;
     min-width: 640px;
     width: 100%;
-    background-color: #EFFFCE;
+    background-image: radial-gradient(circle,#EADDFE, #E6F5FF);
 }
 main{
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    background-color: #D2FF92;
+    background-color:#FEFCFF;
 }
 header{
-    padding: 0px;
+    padding: 30px;
     margin: 0px;
     height: 175px;
     position: relative;
@@ -37,22 +37,22 @@ nav ul{
 nav ul li{
     float: left;
     font-size: 18px;
-    color:#31402D;
+    color:#EADDFE;
     line-height: 36px;
     width: 120px;
     height: 36px;
     margin-right: 12px;
-    background-color:#D2FF92;
+    background-color:#FEFCFF;
     text-align:center;
 }
 li a{
     text-decoration: none;
 }
 .active, .active a, .inactive a:hover{
-    color:#7CD184;
+    color:#A496CF;
 }
 .inactive, .inactive a{
-    color: #3B5B3E;
+    color: #A496CF;
 }
 
 .post{
@@ -63,7 +63,7 @@ li a{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 24px;
-    background-color: #7CD184;
+    background-color: #FEFCFF;
 }
 .post p{
     overflow: hidden;
@@ -75,6 +75,6 @@ li a{
 footer{
     text-align: center;
     height: 50px;
-    color: #7CD184;
+    color: #A496CF;
     margin-top: 10px;
 }
