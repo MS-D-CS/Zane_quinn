@@ -19,6 +19,7 @@
    <title>Red Ball Survey</title>
    <link href="rb_reset.css" rel="stylesheet" />
    <link href="rb_styles.css" rel="stylesheet" />
+   <link href="rb_forms.css" rel="stylesheet" />
    <script src="rb_formsubmit.js"></script>
 
 
@@ -54,43 +55,70 @@
          parties, <em>ever</em>. </p>
       <p>Required values are marked by an asterisk (*)</p>
 
-      <form id="survey" action="http://www.example.com/redball/survey" method="post"></form>
+      <form id="survey" action="http://www.example.com/redball/survey" method="post">
       <fieldset id="custInfo">
          <legend>Customer Info</legend>
-         <div>
+         <div class="formRow">
             <label for="name">Name*</label>
-            <input name="custName" id="name" type="text" />
+            <input name="custName" id="name" type="text" placeholder="first and last name" />
          </div>
-         <div>
+         <div class="formRow">
             <label for="street">Street address </label>
             <input name="custStreet" id="street" type="text" />
          </div>
-         <div>
+         <div class="formRow">
             <label for="city">City</label>
-            <input name="custCity" id="city" type="text" />
+            <input name="custCity" id="city" type="text" value="Ormond Beach"/>
          </div>
-         <div>
+         <div class="formRow">
             <label for="state">State</label>
-            <input name="custState" id="state" type="text" />
+            <input name="custState" id="state" type="text" value="Florida" />
          </div>
-         <div>
+         <div class="formRow">
             <label for="zip">Postal Code</label>
-            <input name="custZip" id="zip" type="text" />
+            <input name="custZip" id="zip" type="text" placeholder="nnnnn (-nnnn)"/>
          </div>
-         <div>
+         <div class="formRow">
             <label for="phone">Phone Number</label>
-            <input name="custPhone" id="phone" type="text" />
+            <input name="custPhone" id="phone" type="text" placeholder="(nnn) nnn-nnnn" />
          </div>
-         <div>
+         <div class="formRow">
             <label for="mail">E-mail*</label>
             <input name="custEmail" id="mail" type="text" />
          </div>
+        
 
-         </Code>
-      </feildset>
+      </fieldset>
       <fieldset id="expInfo">
          <legend>Share Your Experience at Red Ball Pizza</legend>
+         <div class="formRow">
+            <label for="visit">Date of visit</label>
+            <input name="visitDate" id="visit" type="date" />
+         </div>
+         <div class="formRow">
+            <label for="order">Order Type</label>
+            <select name="orderType" id="order">
+               <option value="order1">Carry out</option>
+               <option value="order2">Delivery</option>
+               <option value="order3">Dine in</option>
+               <option value="order4">Take'n bake</option>
+            </select>
+
+         </div>
+         <div class="formRow">
+            <label for="info">Where did you hear about us?<br/>
+               (select all that apply)
+               </label>
+               <select name="infoSrc" id="info" size="5" multiple>
+                  <option value="internet">Internet</option>
+                  <option value="mag">Magazine</option>
+                  <option value="news">News</option>
+                  <option value="word">Word of Mouth</option>
+                  <option value="other">Other</option>
+               </select>
+         </div>
       </fieldset>
+   </form>
    </section>
    <footer>
       <h1>ORDER</h1>
