@@ -1,0 +1,61 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: White;
+}
+
+.cd-logo, .kitchen-equipment, .cake-ingredients {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #99244E;
+  background-size: cover;
+  min-height: 100%;
+
+  background-attachment: fixed;
+}
+
+.cd-logo {
+  background-image: url("CoderDojo.png");
+  min-height: 100%;
+  background-size: auto;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #ffebf6;
+  text-align:center
+}
+
+.textSection {
+  background-color:#99244e;
+  padding:50px 80px;
+}
+
+.kitchen-equipment{
+  background-image: url("ccutensils.jpg");
+}
+.cake-ingredients{
+  background-image: url("ccingredients.jpg");
+}
+.steps{
+  background-image: url("strawberrycc.jpg");
+  }
+  
+
+.caption{
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+}
+.border{
+  background-color: #41bac1;
+  color: white;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
